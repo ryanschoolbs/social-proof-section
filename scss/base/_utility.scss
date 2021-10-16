@@ -1,0 +1,9 @@
+// spacing for major div block
+.spacing > * + * {
+   margin-top: var(--default-space, 1rem);
+}
+
+// adjust text to real div center
+.text-bottom {
+   margin-top: auto;
+}
